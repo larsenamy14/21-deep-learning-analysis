@@ -25,11 +25,11 @@ What variable(s) should be removed from the input data because they are neither 
 Compiling, Training, and Evaluating the Model
  
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Neurons Layer 1 - 64; Layer 2 - 96; Output Layer - 1
+* Neurons Layer 1 - 64; Layer 2 - 96; Output Layer - 1;
 I increased the number of neurons in each layer to allow the model to learn more complex patterns.
-* Layers - 3
+* Layers - 3;
 Increasing the number of layers to 4 did not improve the accuracy of the model, so I kept the layers to 3.
-* Activation functions - relu and sigmoid
+* Activation functions - relu and sigmoid;
 Relu - ReLU is a simple and effective activation function that introduces non-linearity to the network.
 Sigmoid - Sigmoid is often used in the output layer of binary classification problems because it squashes the output values between 0 and 1, which can be interpreted as probabilities.
 

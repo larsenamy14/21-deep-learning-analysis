@@ -39,6 +39,6 @@ Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
 * To increase model performance, I increased the number of neurons in each layer.
   
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Summary: 
 
 Overall, the results of this model were less than satisfactory because the model did not meet the 75% accuracy goal. I would recommend combining this model with another model to solve the classification problem. For instance, this model could be combined with a logistic regression model. The models can be trained separately before combining the predictions with a simple voting scheme. If both models predict success, than the applicant is very likely to be successful if funded by Alphabet Soup. If both models predict fail, than the applicant is not likely to be successful. If the models don't agree, than there is a 50-50 chance the applicant will be successful. This new model might improve accuracy of the analysis.
